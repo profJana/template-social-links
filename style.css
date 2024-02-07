@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 14px;
+}
+body{
+    height: 100vh;
+    background-image: url('./img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main{
+    max-width: 540px;
+    border: 1px solid red;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    color: white;
+    padding: 20px;
+}
+
+.image-profile{
+    width: 120px;
+    border-radius: 50%;
+}
+.gradient{
+    background: rgb(93,177,108);
+    background: linear-gradient(90deg, rgba(93,177,108,1) 0%, rgba(106,141,208,1) 100%);
+}
